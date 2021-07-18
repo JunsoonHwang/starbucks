@@ -427,7 +427,7 @@ flex-grow: 1;
 .reserve-store .inner {
   height: 600px;
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -449,6 +449,7 @@ flex-grow: 1;
 .reserve-store .medal .front {
   /* 두 이미지가 겹침 */
   transform: rotateY(0deg);
+  position: absolute;
   /* y축으로 회전하는 3d변환함수 */
 }
 .reserve-store .medal:hover .front {
@@ -547,7 +548,7 @@ flex-grow: 1;
 .awards .swiper-prev {
   left: -100px;
 }
-.awards .swiper-prev {
+.awards .swiper-next {
   right: -100px;
 }
 .awards .swiper-prev:hover,
@@ -555,6 +556,7 @@ flex-grow: 1;
   background-color: #fff;
   color: #333;
 }
+
 
 #to-top {
   width: 42px;
